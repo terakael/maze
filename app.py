@@ -30,4 +30,5 @@ filtered_noise = median_filter(binary_noise, size=4)
 # Plot the generated noise
 plt.imshow(binary_noise, cmap=mcolors.ListedColormap(["#ba8c5d", "green"]))
 plt.colorbar()
+
 plt.show()
